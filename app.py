@@ -10,7 +10,7 @@ st.sidebar.title("sentiment analysis of tweets about US airlines")
 st.markdown("this application is a streamlit dashboard to analyze the sentiment of tweets")
 st.sidebar.markdown("this application is a streamlit dashboard to analyze the sentiment of tweets")
 
-data_url = r"C:\Users\KIIT0001\Desktop\Project\Tweets.csv"
+data_url = "Tweets.csv"
 
 def load_data():
     data = pd.read_csv(data_url)
